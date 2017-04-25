@@ -1,7 +1,10 @@
 import fresh_tomatos
 import media
 
-#Instance 1
+#Now, we create movie objects(Instances) that are used for developing our website.
+#These objects contain all the values corresponding to movie class described in Media.py
+
+#Instanace 1
 ff8 = media.Movie("Fast and Furious 8",
                   "A story of a family and their fast cars",
                   "http://cdn4.mediaclues.com/wp-content/uploads/2016/12/FastFurious8OfficialTrailer-1.jpg",
@@ -32,6 +35,9 @@ guardians_of_galaxy = media.Movie("Guardians of the Galaxy Vol.2",
                                   "http://img15.deviantart.net/7dea/i/2015/228/d/5/guardians_of_the_galaxy_vol_2_by_batcrazyman-d95z0yz.jpg",
                                   "https://youtu.be/duGqrYw4usE")
 
+#Creating an array list with all the movies I created so that they can be called in fresh_tomatos
 movies = [ff8, kong_skull_island, baahubali_2, beauty_and_beast, rogue_one,guardians_of_galaxy]
 
+#Calling the function by using fresh_tomatos
+#Here, the fresh_tomatos.py is a file that is used for building the webpage and open_movies_page is the function called to open that particular movie
 fresh_tomatos.open_movies_page(movies)
