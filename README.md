@@ -2,8 +2,9 @@
 A Project Developed Using Python Data Structures
 
 # Requirements
-1) The user needs to Install Python IDE (ver 2.7 suggested)
+1) The user needs to Install [Python](https://www.python.org/downloads/) *ver 2.7 suggested*
 2) Familiar with basic Python Programming and Data Structures
+3) Reading [Python Documentation](https://docs.python.org/2/library/index.html)
 
 # Usage
 Download / Clone this repository to your desktop. 
@@ -20,3 +21,6 @@ Create multiple instances of that Python Class to represent your favorite movies
 Use the `fresh_tomatos.py` to ensure your website renders correctly when you attempt to load it in a browser.
 
 The file `fresh_tomatos.py` contains the `open_movies_page()` function that will take in your list of movies and generate an HTML file including this content, producing a website to showcase your favorite movies.
+
+                                                                                                              
+   **Prajeet K Patibandla**
